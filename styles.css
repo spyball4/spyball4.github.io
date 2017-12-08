@@ -3,5 +3,24 @@ img {
 }
 body {
     text-align: center;
-    font-family: sans-serif
+    font-family: fantasy
+}
+.blue-text {
+    color: blue;
+  }
+.XL {
+    width: 150px
+}
+.border {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+.border2 {
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+}
+.red-text {
+    color: red;
 }
