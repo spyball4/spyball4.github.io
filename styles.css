@@ -5,11 +5,14 @@ body {
     text-align: center;
     font-family: fantasy
 }
-.blue-text {
-    color: blue;
+.gold-text {
+    color: gold;
   }
 .XL {
     width: 150px
+}
+.X {
+    width:300px
 }
 .border {
     border-color: red;
@@ -23,4 +26,13 @@ body {
 }
 .red-text {
     color: red;
+}
+.backivory {
+    background-color: Ivory;
+}
+.goldrod-text {
+    color: goldenrod;
+}
+.dblue-text {
+    color: DodgerBlue;
 }
