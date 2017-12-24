@@ -1,9 +1,22 @@
+h2 {
+    font-family: arial
+}
+h1 {
+    font-family: times 
+}
+
 img {
     width: 200px;
 }
 body {
     text-align: center;
     font-family: fantasy
+}
+p {
+    font-family: georgia
+}
+li {
+    font-family: arial
 }
 .gold-text {
     color: gold;
