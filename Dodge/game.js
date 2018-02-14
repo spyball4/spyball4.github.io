@@ -5,7 +5,7 @@ var enemy;
 var enemyImage;
 var backroundImage;
 
-function perload() {
+function preload() {
     playerImage = loadImage("https://d30y9cdsu7xlg0.cloudfront.net/png/12133-200.png");
     enemyImage = loadImage("http://icons.iconarchive.com/icons/zairaam/bumpy-planets/256/asteroid-icon.png");
     backroundImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/aKQOg3G.png");
@@ -14,9 +14,9 @@ function perload() {
 function setup() {
     isGameOver = false;
     createCanvas(256, 256);
-    player = createSprite(width/2, height-(playerImage.height/2), 0, 0);
+    player = createSprite(width / 2, height - (playerImage.height / 2), 0, 0);
     player.addImage(playerImage);
-    enemy = createSprite(width/2, 0, 0, 0);
+    enemy = createSprite(width / 2, 0, 0, 0);
     enemy.addImage(enemyImage);
 }
 function draw() {
@@ -27,9 +27,7 @@ function draw() {
         isgameOver = true;
     }
     
-    -backround(0, 50, 100);
-    +backround(backroundImage);
-    
+    backround(backroundImage);
     if(keyDown(RIGHT_ARROW) && player.position.x < (width - (playerImage.width/2))){
         player.position.x += 2;
     }
@@ -47,6 +45,7 @@ function draw() {
 
     
     drawSprites();
+    }
 }
 
 function gameOver() {
