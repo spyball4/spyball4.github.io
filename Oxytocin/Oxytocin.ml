@@ -7,4 +7,5 @@ let match_name name =
     | "Albert" -> 3
     | _ -> 0
 
-print_endline "Hello, world!";
+print_endline "Hello, world! Here is a number:";
+print_endline match_name "Dayna";
