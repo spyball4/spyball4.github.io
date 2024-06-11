@@ -1,26 +1,73 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional styles for specific elements */
+
 h2 {
-    font-family: arial;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 h1 {
-    font-family: times;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 img {
-    width: 200px;
+    max-width: 100%;
 }
 
 body {
+    font-family: "Arial", sans-serif;
     text-align: center;
-    font-family: fantasy;
+    background-color: #f4f4f4;
 }
 
 p {
-    font-family: georgia;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 li {
-    font-family: arial;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .gold-text {
