@@ -1,63 +1,80 @@
 h2 {
-    font-family: arial
+    font-family: arial;
 }
+
 h1 {
-    font-family: times 
+    font-family: times;
 }
 
 img {
     width: 200px;
 }
+
 body {
     text-align: center;
-    font-family: fantasy
+    font-family: fantasy;
 }
+
 p {
-    font-family: georgia
+    font-family: georgia;
 }
+
 li {
-    font-family: arial
+    font-family: arial;
 }
+
 .gold-text {
     color: gold;
-  }
+}
+
 .green-text {
-    color: DarkGreen;
+    color: darkgreen;
 }
+
 .XL {
-    width: 150px
+    width: 150px;
 }
+
 .X {
-    width:300px
+    width: 300px;
 }
+
 .border {
     border-color: red;
     border-width: 2px;
     border-style: solid;
 }
+
 .border2 {
     border-color: orange;
     border-width: 2px;
     border-style: solid;
 }
+
 .red-text {
     color: red;
 }
+
 .backivory {
-    background-color: Ivory;
+    background-color: ivory;
 }
+
 .goldrod-text {
     color: goldenrod;
 }
+
 .dblue-text {
-    color: DodgerBlue;
+    color: dodgerblue;
 }
+
 .XXL {
-    width:800px;
+    width: 800px;
 }
+
 .LockScreen {
-    width:1200px;
+    width: 1200px;
 }
+
 .ULTRA {
-    width:3126px;
+    width: 3126px;
 }
