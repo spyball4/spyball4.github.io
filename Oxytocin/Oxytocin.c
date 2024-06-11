@@ -6,11 +6,11 @@
 typedef struct
 {
     // Implement the logic to calculate the stat boost
-    int (*get_stat_boost)(int, ...);
+    int (*get_stat_boost)(int bond_level);
 } PhysicalTouch;
 
 // Implement the get_stat_boost function
-int get_stat_boost(int bond_level, ...)
+int get_stat_boost(int bond_level)
 {
     // Implement the logic to calculate the stat boost
     // ...
@@ -21,7 +21,7 @@ int get_stat_boost(int bond_level, ...)
 int Oxytocin(int bond_level, PhysicalTouch physical_touch, ...)
 {
     // Calculate the stat boost gained from physical touch
-    int stat_boost = bond_level * physical_touch.get_stat_boost(bond_level, ...);
+    int stat_boost = bond_level * physical_touch.get_stat_boost(bond_level);
 
     // Return the stat boost
     return stat_boost;
@@ -37,7 +37,7 @@ int main()
     int bond_level = 100;
 
     // Calculate the stat boost
-    int stat_boost = Oxytocin(bond_level, physical_touch, ...);
+    int stat_boost = Oxytocin(bond_level, physical_touch);
 
     // Print the stat boost
     printf("%d\n", stat_boost);
