@@ -70,6 +70,19 @@ li {
     line-height: 1.5;
 }
 
+.animated-text {
+    font-family: sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 150px;
+    color: transparent;
+    background-image: url(https://giphy.com/embed/1BfRG8cK5SPOer97aK);
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 .gold-text {
     color: gold;
 }
