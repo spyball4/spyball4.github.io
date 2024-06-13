@@ -138,3 +138,77 @@ li {
 .ULTRA {
     width: 3126px;
 }
+
+/**
+ * FILEPATH: /Users/elzhongfritsche/Documents/GitHub/spyball4.github.io/styles.css
+ * 
+ * Style The Dropdown Button
+ * 
+ * The `.dropbtn` class is used to style the dropdown button. It sets the background color to #4CAF50, 
+ * the text color to white, padding to 16px, font size to 16px, removes the border, and sets the cursor to pointer.
+ * 
+ * The `.dropdown` class is used to position the dropdown content. It sets the position to relative and 
+ * displays it as an inline block.
+ * 
+ * The `.dropdown-content` class is used to style the dropdown content. It sets the display to none (hidden by default),
+ * position to absolute, background color to #f9f9f9, minimum width to 160px, box shadow, and z-index to 1.
+ * 
+ * The `.dropdown-content a` selector is used to style the links inside the dropdown. It sets the text color to black,
+ * padding to 12px 16px, removes the text decoration, and displays them as block elements.
+ * 
+ * The `.dropdown-content a:hover` selector is used to change the background color of the dropdown links on hover to #f1f1f1.
+ * 
+ * The `.dropdown:hover .dropdown-content` selector is used to show the dropdown menu when the dropdown is hovered over.
+ * It sets the display to block.
+ * 
+ * The `.dropdown:hover .dropbtn` selector is used to change the background color of the dropdown button when the dropdown
+ * content is shown. It sets the background color to #3e8e41.
+ */
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
