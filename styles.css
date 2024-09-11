@@ -71,6 +71,7 @@ li {
 }
 
 .animated-text {
+    /* FIXME: TODO: Does not function as intended!! */
     font-family: sans-serif;
     font-size: 150px;
     font-weight: 800;
