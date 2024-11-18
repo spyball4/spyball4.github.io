@@ -1,0 +1,215 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional styles for specific elements */
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.animated-text {
+    /* FIXME: TODO: Does not function as intended!! */
+    font-family: sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 150px;
+    color: transparent;
+    background-image: url(https://giphy.com/embed/1BfRG8cK5SPOer97aK);
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.gold-text {
+    color: gold;
+}
+
+.green-text {
+    color: darkgreen;
+}
+
+.XL {
+    width: 150px;
+}
+
+.X {
+    width: 300px;
+}
+
+.border {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.border2 {
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.red-text {
+    color: red;
+}
+
+.backivory {
+    background-color: ivory;
+}
+
+.goldrod-text {
+    color: goldenrod;
+}
+
+.dblue-text {
+    color: dodgerblue;
+}
+
+.XXL {
+    width: 800px;
+}
+
+.LockScreen {
+    width: 1200px;
+}
+
+.ULTRA {
+    width: 3126px;
+}
+
+/**
+ * FILEPATH: /Users/elzhongfritsche/Documents/GitHub/spyball4.github.io/styles.css
+ * 
+ * Style The Dropdown Button
+ * 
+ * The `.dropbtn` class is used to style the dropdown button. It sets the background color to #4CAF50, 
+ * the text color to white, padding to 16px, font size to 16px, removes the border, and sets the cursor to pointer.
+ * 
+ * The `.dropdown` class is used to position the dropdown content. It sets the position to relative and 
+ * displays it as an inline block.
+ * 
+ * The `.dropdown-content` class is used to style the dropdown content. It sets the display to none (hidden by default),
+ * position to absolute, background color to #f9f9f9, minimum width to 160px, box shadow, and z-index to 1.
+ * 
+ * The `.dropdown-content a` selector is used to style the links inside the dropdown. It sets the text color to black,
+ * padding to 12px 16px, removes the text decoration, and displays them as block elements.
+ * 
+ * The `.dropdown-content a:hover` selector is used to change the background color of the dropdown links on hover to #f1f1f1.
+ * 
+ * The `.dropdown:hover .dropdown-content` selector is used to show the dropdown menu when the dropdown is hovered over.
+ * It sets the display to block.
+ * 
+ * The `.dropdown:hover .dropbtn` selector is used to change the background color of the dropdown button when the dropdown
+ * content is shown. It sets the background color to #3e8e41.
+ */
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
