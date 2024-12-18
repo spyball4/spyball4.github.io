@@ -31,6 +31,6 @@ In my blog section, I will share my thoughts, insights, and experiences related 
 
 If you have any questions, suggestions, or just want to say hello, feel free to reach out to me. You can find my contact information in this section.
 
-Working Email as of 2024: zhong464@umn.edu
+Working Email as of 2025: zhong464@umn.edu
 
 Thank you for visiting my website repository! Stay tuned for more updates and exciting content.
