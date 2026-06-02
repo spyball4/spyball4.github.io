@@ -84,59 +84,59 @@ li {
     background-clip: text;
 }
 
-.gold-text {
+.text-gold {
     color: gold;
 }
 
-.green-text {
+.text-dark-green {
     color: darkgreen;
 }
 
-.XL {
+.img-150 {
     width: 150px;
 }
 
-.X {
+.img-300 {
     width: 300px;
 }
 
-.border {
+.border-red {
     border-color: red;
     border-width: 2px;
     border-style: solid;
 }
 
-.border2 {
+.border-orange {
     border-color: orange;
     border-width: 2px;
     border-style: solid;
 }
 
-.red-text {
+.text-red {
     color: red;
 }
 
-.backivory {
+.bg-ivory {
     background-color: ivory;
 }
 
-.goldrod-text {
+.text-goldenrod {
     color: goldenrod;
 }
 
-.dblue-text {
+.text-dodger-blue {
     color: dodgerblue;
 }
 
-.XXL {
+.img-800 {
     width: 800px;
 }
 
-.LockScreen {
+.img-1200 {
     width: 1200px;
 }
 
-.ULTRA {
+.img-3126 {
     width: 3126px;
 }
 
